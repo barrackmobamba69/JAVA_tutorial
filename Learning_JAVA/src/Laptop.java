@@ -3,11 +3,11 @@
 public class Laptop {
 	
 	// Laptop attributes
-	private String make;
-	private String processorType;
-	private int ram;
-	private int harddrive;
-	private int price;
+	String make;
+	String processorType;
+	int ram;
+	int harddrive;
+	int price;
 	
 	// Laptop constructor
 	public Laptop(String make, String processorType, int ram, int harddrive, int price) {

@@ -14,13 +14,12 @@ public class Test {
 		System.out.println(firstLaptopInstance.info());
 		System.out.println("\nSecond laptop's information: ");
 		System.out.println(secondLaptopInstance.info());
-		System.out.println();
-		
+				
 		// Task2: Print out which laptop has more RAM
 		if (firstLaptopInstance.getRam() > secondLaptopInstance.getRam()) {
 			System.out.println("First laptop has more RAM");
 		}
-		if (secondLaptopInstance.getRam() < firstLaptopInstance.getRam()) {
+		else if (secondLaptopInstance.getRam() < firstLaptopInstance.getRam()) {
 			System.out.println("Second laptop has more RAM");
 		}
 		else {
@@ -31,7 +30,25 @@ public class Test {
 		if (firstLaptopInstance.getRam() < secondLaptopInstance.getRam()) {
 			firstLaptopInstance.deductPrice();
 		}
-		System.out.println(firstLaptopInstance.info());
+		System.out.println("\nThe updated price is " + firstLaptopInstance.price);
 
+		System.out.println("\n*******************************");
+		
+//***********************************************************************************
+//***********************************************************************************
+
+		LogicGate logic = new LogicGate(false);
+
+		if ((logic.state) = false) {
+			System.out.println("The logic gate is off, i.e., " + logic.state);
+		}
+		else if ((logic.state) = true) {
+			System.out.println("The logic gate is on, i.e., " + logic.state);
+		}
+		
+		System.out.println("\nThe current state is " + logic.getState());
+		logic.not();
+		logic.set();
+		logic.negate();
 	}
 }
