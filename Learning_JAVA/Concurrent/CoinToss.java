@@ -1,10 +1,10 @@
 //// Created thread that shows the implementation of tossing coin, inputting in either heads or tails
 //
-//public class Lab1 extends Thread {
+//public class CoinToss extends Thread {
 //	
 //	private static final double THRESHOLD_VALUE = 0.5;
 //	
-//	public Lab1() {
+//	public CoinToss() {
 //	}
 //	
 //	@Override
@@ -18,7 +18,7 @@
 //	}
 //	
 //	public static void main (String[] args) {
-//		Lab1 thread = new Lab1();
+//		CoinToss thread = new CoinToss();
 //		thread.start();
 //	}
 //	
@@ -30,7 +30,7 @@
 
 //Created thread that tosses a coin 1000 times and computes the frequency of heads and tails
 
-public class Lab1 extends Thread {
+public class CoinToss extends Thread {
 	
 	private static final double THRESHOLD_VALUE = 0.5;
 	private int counter1;
@@ -48,11 +48,11 @@ public class Lab1 extends Thread {
 	}
 	
 	public static void main (String[] args) {
-		Lab1 thread = new Lab1();
+		CoinToss thread = new CoinToss();
 		thread.start();
 
       try {
-          // Wait for the Lab1 thread to complete
+          // Wait for the CoinToss thread to complete
           thread.join();
       } catch (InterruptedException e) {
           e.printStackTrace();
@@ -72,7 +72,7 @@ public class Lab1 extends Thread {
 //
 //import java.util.Random;
 //
-//public class Lab1 extends Thread {
+//public class CoinToss extends Thread {
 //	
 //	public static void main (String[] args) {
 //
