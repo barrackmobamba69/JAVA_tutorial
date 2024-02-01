@@ -17,7 +17,7 @@
 //		}
 //	}
 //	
-//	public static void main (String args[]) {
+//	public static void main (String[] args) {
 //		Lab1 thread = new Lab1();
 //		thread.start();
 //	}
@@ -47,7 +47,7 @@ public class Lab1 extends Thread {
 		}
 	}
 	
-	public static void main (String args[]) {
+	public static void main (String[] args) {
 		Lab1 thread = new Lab1();
 		thread.start();
 
@@ -64,4 +64,33 @@ public class Lab1 extends Thread {
 	
 }
 
+
+//*****************************************************************************************
+
+
+////Created another simple implementation of coin toss with minimal code
+//
+//import java.util.Random;
+//
+//public class Lab1 extends Thread {
+//	
+//	public static void main (String[] args) {
+//
+//		Random rand = new Random();
+//		int heads = 0;
+//		int tails = 0;
+//		
+//		for (int i = 0; i < 1000; i++) {
+//			if(rand.nextBoolean()) {
+//				heads++;
+//			}
+//			else {
+//				tails++;
+//			}
+//		}
+//		
+//	    System.out.println("Heads: " + heads); 
+//	    System.out.println("Tails: " + tails);
+//	}
+//}
 
