@@ -1,4 +1,4 @@
-//// Created thread that shows the implementation of tossing coin, inputting in either heads or tails
+//// Created thread that shows the implementation of tossing coin, inputting in either heads or tails.
 //
 //public class CoinToss extends Thread {
 //	
@@ -28,7 +28,7 @@
 //*****************************************************************************************
 
 
-//Created thread that tosses a coin 1000 times and computes the frequency of heads and tails
+//Created thread that tosses a coin 1000 times and computes the frequency of heads and tails.
 
 public class CoinToss extends Thread {
 	
@@ -68,7 +68,7 @@ public class CoinToss extends Thread {
 //*****************************************************************************************
 
 
-////Created another simple implementation of coin toss with minimal code
+////Created another simple implementation of coin toss with minimal code.
 //
 //import java.util.Random;
 //
