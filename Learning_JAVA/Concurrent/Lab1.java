@@ -65,4 +65,3 @@ public class Lab1 extends Thread {
 }
 
 
-
