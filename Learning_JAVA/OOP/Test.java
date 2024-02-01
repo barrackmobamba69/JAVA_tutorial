@@ -14,7 +14,7 @@ public class Test {
 		System.out.println(firstLaptopInstance.info());
 		System.out.println("\nSecond laptop's information: ");
 		System.out.println(secondLaptopInstance.info());
-				
+		
 		// Task2: Print out which laptop has more RAM
 		if (firstLaptopInstance.getRam() > secondLaptopInstance.getRam()) {
 			System.out.println("First laptop has more RAM");
