@@ -1,5 +1,4 @@
 public class EmployeeEmailModule {
-	//Nothing here for now
 	//Only to test classes
 	
 	public static void main(String[] args) {
