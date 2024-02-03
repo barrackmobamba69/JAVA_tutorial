@@ -1,6 +1,12 @@
-public class EmployeeEmailModule{
+public class EmployeeEmailModule {
 	//Nothing here for now
+	//Only to test classes
+	
+	public static void main(String[] args) {
+		Employee employee = new Employee(null, null, null);
+	}
 }
+	
 class Email {
 
 	private String home; //Records home email
@@ -44,6 +50,14 @@ class Employee {
 	
 	public Email getEmails() {
 		return emailAddress;
-
+	}
+	
+	public String workEmail() {
+		return emailAddress.getWork();
+	}
+	
+	public String homeEmail() {
+		return emailAddress.getHome();
 	}
 }
+
