@@ -1,4 +1,8 @@
-public class sss {
+public class ParallelFrequency {
+	
+	public void run() {
+		System.out.println();
+	}
 	
 	public static void main(String[] args) {
 		// This code is a sequential program that calculates the frequency of even values 
