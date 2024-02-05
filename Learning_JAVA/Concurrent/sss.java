@@ -10,5 +10,4 @@ public class sss {
 			if (f[j] % 2 == 0) freq++;
 		System.out.println(freq);
     }
-
 }
