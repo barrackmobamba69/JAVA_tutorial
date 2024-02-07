@@ -14,15 +14,37 @@ public class ViewingStandCoarseGrain {
 	}
 	
 	public void run() {
-		
+
 	}
 	
-	public void findSeat() {
-		numSeats++;
+	public boolean findSeat() {
+		lock.lock();
+		try {
+			if (availableSeats > 0) {
+				availableSeats--;
+				return true;
+			}
+			else {
+				return false;
+			}
+		}
+		finally{
+			lock.unlock();
+		}
 	}
 	
-	public void leaveSeat() {
-		numSeats--;
+	public boolean leaveSeat() {
+        lock.lock();
+        try {
+            if (availableSeats < numSeats) {
+                availableSeats++;
+                return true;
+            } else {
+                return false;
+            }
+        } finally {
+            lock.unlock();
+        }
 	}
 	
 	
