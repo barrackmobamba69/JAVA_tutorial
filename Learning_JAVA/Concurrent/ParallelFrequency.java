@@ -1,4 +1,9 @@
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 public class ParallelFrequency {
+	
+	ExecutorService pool = Executors.newFixedThreadPool(0);
 	
 	public void run() {
 		System.out.println();
