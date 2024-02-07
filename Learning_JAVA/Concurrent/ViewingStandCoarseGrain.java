@@ -2,19 +2,13 @@ import java.util.concurrent.locks.*;
 
 public class ViewingStandCoarseGrain {
 
-	private int numSeats;
-	private int availableSeats;
-	public final Lock lock;
+	private int numSeats; //Total number of seats
+	private int availableSeats; //Number of seats available
+	public final Lock lock = new ReentrantLock();
 	
 	public ViewingStandCoarseGrain(int numSeats) {
         this.numSeats = numSeats;
         this.availableSeats = numSeats;
-        this.lock = new ReentrantLock();
-
-	}
-	
-	public void run() {
-
 	}
 	
 	public boolean findSeat() {
@@ -49,6 +43,7 @@ public class ViewingStandCoarseGrain {
 	
 	
 	public static void main (String[] args) {
-		
+        ViewingStandCoarseGrain viewingStand = new ViewingStandCoarseGrain(10);
+        
 	}
 }
