@@ -2,7 +2,7 @@ public class EmployeeEmailModule {
 	//Only to test classes
 	
 	public static void main(String[] args) {
-		Employee employee = new Employee(null, null, null);
+		Employee employee = new Employee(0, null, null);
 	}
 }
 	
