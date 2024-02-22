@@ -16,7 +16,7 @@ class Email {
 		this.work = work;
 	}
 	
-	public String getHome() { //Getters
+	public String getHome() { //Getter
 		return this.home;
 	}
 	
@@ -24,7 +24,7 @@ class Email {
 		return this.work;
 	}
 	
-	public void setHome(String home) { //Setters
+	public void setHome(String home) { //Setter
 		this.home = home;
 	}
 	
