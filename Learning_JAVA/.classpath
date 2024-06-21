@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="OOP"/>
 	<classpathentry excluding="Lab01/|ddddd/" kind="src" path="Concurrent"/>
+	<classpathentry kind="src" path="CodingShapes"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
