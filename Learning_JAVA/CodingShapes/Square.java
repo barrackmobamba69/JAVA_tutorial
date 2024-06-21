@@ -7,7 +7,7 @@ public class Square {
 				System.out.print("* ");
 			}
 			System.out.println("");
- 
+  
 		}
 
 	}
